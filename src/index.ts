@@ -1,17 +1,33 @@
+// DAY 4 - 2023
+import { decode } from './2023/day04'
+
+const a = decode('hola (odnum)')
+console.log(a) // hola mundo
+
+const b = decode('(olleh) (dlrow)!')
+console.log(b) // hello world!
+
+const c = decode('sa(u(cla)atn)s')
+console.log(c) // santaclaus
+
+// Paso a paso:
+// 1. Invertimos el anidado -> sa(ualcatn)s
+// 2. Invertimos el que queda -> santaclaus
+
 // DAY 3 - 2023
-import { findNaughtyStep } from './2023/day03'
+// import { findNaughtyStep } from './2023/day03'
 
-const original = 'abcd'
-const modified = 'abcde'
-console.log(findNaughtyStep(original, modified)) // 'e'
+// const original = 'abcd'
+// const modified = 'abcde'
+// console.log(findNaughtyStep(original, modified)) // 'e'
 
-const original2 = 'stepfor'
-const modified2 = 'stepor'
-console.log(findNaughtyStep(original2, modified2)) // 'f'
+// const original2 = 'stepfor'
+// const modified2 = 'stepor'
+// console.log(findNaughtyStep(original2, modified2)) // 'f'
 
-const original3 = 'abcde'
-const modified3 = 'abcde'
-console.log(findNaughtyStep(original3, modified3)) // ''
+// const original3 = 'abcde'
+// const modified3 = 'abcde'
+// console.log(findNaughtyStep(original3, modified3)) // ''
 
 // DAY 2 - 2023
 // import { manufacture } from './2023/day02'
