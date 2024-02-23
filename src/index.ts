@@ -1,14 +1,38 @@
+// DAY 5- 2023
+import { cyberReindeer } from './2023/day05'
+
+const road = 'S..|...|..'
+const time = 10 // unidades de tiempo
+const result = cyberReindeer(road, time)
+
+console.log(result)
+
+/* -> result:
+[
+  'S..|...|..', // estado inicial
+  '.S.|...|..', // avanza el trineo la carretera
+  '..S|...|..', // avanza el trineo la carretera
+  '..S|...|..', // el trineo para en la barrera
+  '..S|...|..', // el trineo para en la barrera
+  '...S...*..', // se abre la barrera, el trineo avanza
+  '...*S..*..', // avanza el trineo la carretera
+  '...*.S.*..', // avanza el trineo la carretera
+  '...*..S*..', // avanza el trineo la carretera
+  '...*...S..', // avanza por la barrera abierta
+]
+*/
+
 // DAY 4 - 2023
-import { decode } from './2023/day04'
+// import { decode } from './2023/day04'
 
-const a = decode('hola (odnum)')
-console.log(a) // hola mundo
+// const a = decode('hola (odnum)')
+// console.log(a) // hola mundo
 
-const b = decode('(olleh) (dlrow)!')
-console.log(b) // hello world!
+// const b = decode('(olleh) (dlrow)!')
+// console.log(b) // hello world!
 
-const c = decode('sa(u(cla)atn)s')
-console.log(c) // santaclaus
+// const c = decode('sa(u(cla)atn)s')
+// console.log(c) // santaclaus
 
 // Paso a paso:
 // 1. Invertimos el anidado -> sa(ualcatn)s
