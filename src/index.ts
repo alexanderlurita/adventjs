@@ -1,23 +1,38 @@
+// DAY 3 - 2023
+import { findNaughtyStep } from './2023/day03'
+
+const original = 'abcd'
+const modified = 'abcde'
+console.log(findNaughtyStep(original, modified)) // 'e'
+
+const original2 = 'stepfor'
+const modified2 = 'stepor'
+console.log(findNaughtyStep(original2, modified2)) // 'f'
+
+const original3 = 'abcde'
+const modified3 = 'abcde'
+console.log(findNaughtyStep(original3, modified3)) // ''
+
 // DAY 2 - 2023
-import { manufacture } from './2023/day02'
+// import { manufacture } from './2023/day02'
 
-const gifts = ['tren', 'oso', 'pelota']
-const materials = 'tronesa'
+// const gifts = ['tren', 'oso', 'pelota']
+// const materials = 'tronesa'
 
-console.log(manufacture(gifts, materials)) // ["tren", "oso"]
-// 'tren' SÍ porque sus letras están en 'tronesa'
-// 'oso' SÍ porque sus letras están en 'tronesa'
-// 'pelota' NO porque sus letras NO están en 'tronesa'
+// console.log(manufacture(gifts, materials)) // ["tren", "oso"]
+// // 'tren' SÍ porque sus letras están en 'tronesa'
+// // 'oso' SÍ porque sus letras están en 'tronesa'
+// // 'pelota' NO porque sus letras NO están en 'tronesa'
 
-const gifts2 = ['juego', 'puzzle']
-const materials2 = 'jlepuz'
+// const gifts2 = ['juego', 'puzzle']
+// const materials2 = 'jlepuz'
 
-console.log(manufacture(gifts2, materials2)) // ["puzzle"]
+// console.log(manufacture(gifts2, materials2)) // ["puzzle"]
 
-const gifts3 = ['libro', 'ps5']
-const materials3 = 'psli'
+// const gifts3 = ['libro', 'ps5']
+// const materials3 = 'psli'
 
-console.log(manufacture(gifts3, materials3)) // []
+// console.log(manufacture(gifts3, materials3)) // []
 
 // DAY 1 - 2023
 // import { findFirstRepeated } from './2023/day01'
