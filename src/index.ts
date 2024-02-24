@@ -1,11 +1,26 @@
+// DAY 6 - 2023
+import { maxDistance } from './2023/day06'
+
+const movements = '>>*<'
+const result = maxDistance(movements)
+console.log(result) // -> 2
+
+const movements2 = '<<<>'
+const result2 = maxDistance(movements2)
+console.log(result2) // -> 2
+
+const movements3 = '>***>'
+const result3 = maxDistance(movements3)
+console.log(result3) // -> 5
+
 // DAY 5- 2023
-import { cyberReindeer } from './2023/day05'
+// import { cyberReindeer } from './2023/day05'
 
-const road = 'S..|...|..'
-const time = 10 // unidades de tiempo
-const result = cyberReindeer(road, time)
+// const road = 'S..|...|..'
+// const time = 10 // unidades de tiempo
+// const result = cyberReindeer(road, time)
 
-console.log(result)
+// console.log(result)
 
 /* -> result:
 [
