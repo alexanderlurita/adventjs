@@ -1,17 +1,48 @@
+// DAY 7 - 2023
+import { drawGift } from './2023/day07'
+console.log(drawGift(4, '+'))
+/*
+   ####
+  #++##
+ #++#+#
+####++#
+#++#+#
+#++##
+####
+*/
+
+console.log(drawGift(5, '*'))
+/*
+    #####
+   #***##
+  #***#*#
+ #***#**#
+#####***#
+#***#**#
+#***#*#
+#***##
+#####
+*/
+
+drawGift(1, '^')
+/*
+#
+*/
+
 // DAY 6 - 2023
-import { maxDistance } from './2023/day06'
+// import { maxDistance } from './2023/day06'
 
-const movements = '>>*<'
-const result = maxDistance(movements)
-console.log(result) // -> 2
+// const movements = '>>*<'
+// const result = maxDistance(movements)
+// console.log(result) // -> 2
 
-const movements2 = '<<<>'
-const result2 = maxDistance(movements2)
-console.log(result2) // -> 2
+// const movements2 = '<<<>'
+// const result2 = maxDistance(movements2)
+// console.log(result2) // -> 2
 
-const movements3 = '>***>'
-const result3 = maxDistance(movements3)
-console.log(result3) // -> 5
+// const movements3 = '>***>'
+// const result3 = maxDistance(movements3)
+// console.log(result3) // -> 5
 
 // DAY 5- 2023
 // import { cyberReindeer } from './2023/day05'
